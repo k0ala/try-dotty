@@ -3,7 +3,8 @@ name := "try-dotty"
 scalaVersion := "0.5.0-RC1"
 
 resolvers ++= List(
-  "Artima Maven Repository" at "https://repo.artima.com/releases"
+  "Artima Maven Repository" at "https://repo.artima.com/releases",
+  Resolver.sonatypeRepo("snapshots")
 )
 
 libraryDependencies ++= List(
